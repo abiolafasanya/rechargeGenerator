@@ -5,17 +5,16 @@
 <ol>
 
   
-                <?php
+               
+<?php
                 // recharge pin generator
-
-                $pinRand = rand(100, 1000000000);
                 
-                for($x = 100; $x <=299; $x++ ){
+                for($x = 0; $x <200; $x++ ){
                     echo 
-                    '<li>'.
-                    'Recharge Pin Number:'. '<br>'
-                    .$pinRand.$x. '<br>'.
-                    '</li>'
+                        '<li>'.
+                            'Recharge Pin Number:'. '<br>'
+                           . $pinRand =  random_int(1000000000000000, 9000000000000000).
+                        '</li>'
                     ;                
                 }
                 ?>

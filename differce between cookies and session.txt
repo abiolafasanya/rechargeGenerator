@@ -1,0 +1,15 @@
+﻿Difference cookies and session
+
+Cookies
+
+1. cookies are client-side files that contain user information
+2. cookies are stored in the browser
+3. A cookie can keep information in the browser until deleted
+4. If you set Variable to cookies then your users will not have to log in
+
+Session
+
+1. session are sever-sidefiles that can contain user information
+2. session are not stored in the browser
+3. session data will be removed if you close your browser
+4. If you set the variable to session then the user activity will be tracked
